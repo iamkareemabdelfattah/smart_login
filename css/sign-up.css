@@ -1,0 +1,25 @@
+body {
+  background: -o-linear-gradient(172deg, rgba(40, 44, 43, 1) 16%, rgba(72, 52, 43, 1) 48%, rgba(226, 90, 41, 1) 100%);
+  background: linear-gradient(278deg, rgba(40, 44, 43, 1) 16%, rgba(72, 52, 43, 1) 48%, rgba(226, 90, 41, 1) 100%);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.contact-bg .row {
+  background-color: #282c2b;
+}
+
+.input-group [type="text"],
+.input-group [type="email"],
+.input-group [type="password"] {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  background-color: #282c2b;
+  color: #fff;
+}
+
+.input-group [type="text"]:focus,
+.input-group [type="email"]:focus,
+.input-group [type="password"]:focus {
+  border-color: #1A73E8;
+}
