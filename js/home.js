@@ -20,5 +20,5 @@ console.log( username, usersinfo );
 function logout ()
 {
   localStorage.removeItem( 'sessionUsername' );
-  location.href = "sign-in.html";
+  location.href = "index.html";
 }
